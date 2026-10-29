@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-genpark-sentiment-harvester",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark high-throughput lexicon-decay sentiment polarity engine with valence shifting and time-weighted stream aggregation.",
+  "tools": [
+    {
+      "name": "score_text",
+      "description": "Analyze text string for sentiment polarity with valence modifiers."
+    },
+    {
+      "name": "aggregate_stream",
+      "description": "Aggregate time-decayed sentiment scores across streaming news feeds."
+    }
+  ]
+}
